@@ -1,5 +1,5 @@
-import createStore from './createStore';
+import { generateTestFromBpmn } from './generateTestFromBpmn';
 
-export default {
-  createStore,
-};
+generateTestFromBpmn(
+  '/Users/clementberthou/Dev/perso/bpm-test/src/simpleDiagram.bpmn'
+);
